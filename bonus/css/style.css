@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+
+header img {
+    max-width: 150px;
+}
+
+header input {
+    width: 600px;
+    padding-left: 30px;
+    /* DEBUG */
+    height: 30px;
+}
+
+.fa-magnifying-glass {
+    font-size: 23px;
+    color: #5f6061;
+    position: absolute;
+    top: 40px;
+    right: 767px;
+}
+
+#bg {
+    background-image: url("../img/MordroTrain.jpg");
+    background-repeat: no-repeat;
+    width: 800px;
+    margin: 0 auto;
+    border-radius: 50px;
+    height: 570px;
+    padding: 50px;
+}
+
+#container {
+    background-color: rgba(30, 30, 30, 0.8);
+    border-radius: 30px;
+    border: 1px solid #ff1100;
+    padding: 20px;
+    transition: 1s;
+    /* DEBUG */
+    width: 210px;
+    height: 410px
+}
+
+#container:hover {
+    cursor: pointer;
+    transform: scale(1.3);
+}
+
