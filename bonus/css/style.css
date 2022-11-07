@@ -50,7 +50,7 @@ header input {
     border: 1px solid #ff1100;
     padding: 20px;
     transition: 1s;
-    /* DEBUG */
+    color: #ff5e00;
     width: 210px;
     height: 410px
 }
