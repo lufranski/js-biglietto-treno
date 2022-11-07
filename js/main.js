@@ -44,4 +44,4 @@ console.log('prezzo del biglietto scontato: ' , reducedTicket);
 
 // Output
 
-document.getElementById("container").innerHTML = ` Gentile cliente, hai selezionato un viaggio di ${tripDuration} km per il Nero Cancello di Mordor. Prima di incontrare il Signore Oscuro Lord Sauron, volevamo informarti che la tariffa per la fascia d'et&aacute; da te selezionata &eacute; ${reducedTicket} &euro; (fortunati i maledetti elfi che i 100 anni li superano come niente). Grazie per averci scelto. Cresciamo in numero, cresciamo in potenza! `;
+document.getElementById("container").innerHTML = ` Gentile cliente, hai selezionato un viaggio di ${tripDuration} miglia per il Nero Cancello di Mordor. Prima di incontrare il Signore Oscuro Lord Sauron, volevamo informarti che la tariffa per la fascia d'et&aacute; da te selezionata &eacute; ${reducedTicket} Mirian; (fortunati i maledetti elfi che i 100 anni li superano come niente). Grazie per averci scelto. Cresciamo in numero, cresciamo in potenza! `;
